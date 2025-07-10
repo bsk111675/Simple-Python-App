@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello, world! I have commited new commit'
+    return 'Hello, world! This is my First CI/CD pipeline Project'
 
 if __name__ == '__main__':
     app.run()
