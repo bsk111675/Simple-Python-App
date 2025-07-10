@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello, world!'
+    return 'Hello, world! I have commited new commit'
 
 if __name__ == '__main__':
     app.run()
